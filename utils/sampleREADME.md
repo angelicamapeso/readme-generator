@@ -9,6 +9,7 @@ Description of the project
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 Installation instructions
@@ -32,3 +33,5 @@ Contributing is subject to the Contributor Covenant. Please see the modified ver
 ## Tests
 Tests for the applicatoin
 
+## Questions
+For additional questions, feel free to [send me an email](mailto:angelica.mapeso@gmail.com). You can also find more information on my [GitHub profile](https://github.com/angelicamapeso).
