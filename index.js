@@ -69,7 +69,9 @@ function init() {
   inquirer
   .prompt(questions)
   .then(answers => {
-    console.log(answers);
+    // console.log(answers);
+    const markDown = generateMarkdown(answers);
+    writeToFile('genSampleReadme.md', markDown);
   });
 }
 
