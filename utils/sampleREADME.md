@@ -1,5 +1,5 @@
 # Project Title
-Badges go here
+[![licenseName](https://img.shields.io/badge/license-licenseName-brightGreen)](https://choosealicense.com/licenses/mit/)
 
 Description of the project
 
