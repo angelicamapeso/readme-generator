@@ -8,6 +8,7 @@ Description of the project
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
+- [Tests](#tests)
 
 ## Installation
 Installation instructions
@@ -27,4 +28,7 @@ ISC License
 How you can contribute to this project
 Contributor Covenant (option)
 Contributing is subject to the Contributor Covenant. Please see the modified version for this project for more information.
+
+## Tests
+Tests for the applicatoin
 
