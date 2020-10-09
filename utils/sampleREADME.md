@@ -7,6 +7,7 @@ Description of the project
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Contributing](#contributing)
 
 ## Installation
 Installation instructions
@@ -21,4 +22,9 @@ Apache License 2.0
 GNU GPLv3
 MIT License
 ISC License
+
+## Contributing
+How you can contribute to this project
+Contributor Covenant (option)
+Contributing is subject to the Contributor Covenant. Please see the modified version for this project for more information.
 
