@@ -29,9 +29,10 @@ const questions = [
     name: 'license',
     message: 'What license does this project fall under?',
     choices: [
-      'License 1',
-      'License 2',
-      'License 3',
+      'Apache License 2.0',
+      'GNU GPLv3',
+      'MIT License',
+      'ISC License',
       ],
   },
   {
