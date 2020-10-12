@@ -58,7 +58,7 @@ const questions = [
 ];
 
 //validation function
-function validateInput(input) {
+function noNewlineChar(input) {
   return new Promise((resolve, reject) => {
     if (input.includes('\\n')) {
       resolve('Cannot include new line characters!');
