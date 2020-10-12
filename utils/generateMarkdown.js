@@ -2,6 +2,11 @@
 function generateMarkdown(data) {
   // const title = data.title.split('\\n').join('\n');
   // return title;
+  const markdown = fillMarkdownTemplate(data);
+  return formatNewlineText(markdown);
+}
+
+function fillMarkdownTemplate(data) {
   return `# ${data.title}
 [![${data.license}](https://img.shields.io/badge/license-${data.license}-brightGreen)](${getLicenseLink(data.license)})
 
