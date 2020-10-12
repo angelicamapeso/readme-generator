@@ -8,6 +8,7 @@ const questions = [
     type: 'input',
     name: 'title',
     message: 'What is the title of this project?',
+    validate: noNewlineChar,
   },
   {
     type: 'input',
@@ -49,11 +50,13 @@ const questions = [
     type: 'input',
     name: 'userName',
     message: 'What is your GitHub username?',
+    validate: noNewlineChar,
   },
   {
     type: 'input',
     name: 'email',
     message: 'What is your email?',
+    validate: noNewlineChar,
   },
 ];
 
