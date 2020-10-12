@@ -1,7 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  // const title = data.title.split('\\n').join('\n');
+  // return title;
   return `# ${data.title}
-[![${data.license}](https://img.shields.io/badge/license-${data.license}-brightGreen)](https://choosealicense.com/licenses/mit/)
+[![${data.license}](https://img.shields.io/badge/license-${data.license}-brightGreen)](${getLicenseLink(data.license)})
 
 ${data.description}
 
