@@ -57,6 +57,17 @@ const questions = [
   },
 ];
 
+//validation function
+function validateInput(input) {
+  return new Promise((resolve, reject) => {
+    if (input.includes('\\n')) {
+      resolve('Cannot include new line characters!');
+    } else {
+      resolve(true);
+    }
+  });
+}
+
 // function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName,data,err => {
