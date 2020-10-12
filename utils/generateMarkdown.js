@@ -49,6 +49,8 @@ function getLicenseLink(license) {
   }
 }
 
-
+function formatNewlineText(text) {
+  return text.split('\\n').join('\n');
+}
 
 module.exports = generateMarkdown;
