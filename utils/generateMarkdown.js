@@ -33,4 +33,20 @@ For additional questions, feel free to [send me an email](mailto:${data.email}).
 `;
 }
 
+//generate license link to a file LICENSE with year and owner information
+function getLicenseLink(license) {
+  switch (license) {
+    case 'Apache License 2.0':
+      return 'https://www.apache.org/licenses/LICENSE-2.0';
+    case 'GNU GPLv3':
+      return 'https://www.gnu.org/licenses/gpl-3.0.en.html';
+    case 'MIT License':
+      return 'https://opensource.org/licenses/MIT';
+    case 'ISC License':
+      return 'https://opensource.org/licenses/ISC';
+  }
+}
+
+
+
 module.exports = generateMarkdown;
