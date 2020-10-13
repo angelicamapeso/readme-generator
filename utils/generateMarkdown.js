@@ -65,6 +65,10 @@ function getLicenseLink(license) {
   }
 }
 
+function formatURLText(text) {
+  return text.replace(/ /g, '%20');
+}
+
 //function to add newline characters to string
 //inputted inline characters with inquirer are escaped
 function formatNewlineText(text) {
