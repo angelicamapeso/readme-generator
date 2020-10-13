@@ -65,6 +65,7 @@ function getLicenseLink(license) {
   }
 }
 
+//function to format string when placed in url
 function formatURLText(text) {
   return text.replace(/ /g, '%20');
 }
