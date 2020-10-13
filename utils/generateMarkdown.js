@@ -5,7 +5,7 @@ function generateMarkdown(data) {
 }
 
 function fillMarkdownTemplate(data) {
-  return `# ${data.title}
+  let markdown =  `# ${data.title}
 ${getBadge(data.license)}
 
 ${data.description}
@@ -27,7 +27,9 @@ ${data.test}
 ## Questions
 For additional questions, feel free to [send me an email](mailto:${data.email}). You can also find more information on my [GitHub profile](https://github.com/${data.userName}).
 `;
+  return markdown;
 }
+
 function getBadge(license) {
   return `[![${license}](https://img.shields.io/badge/License-${license}-brightGreen)](${getLicenseLink(license)})`
 }
