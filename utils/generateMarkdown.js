@@ -20,8 +20,7 @@ ${getSection('License', `This project is licensed under ${data.license}. For mor
 
 ${getSection('Contributing', data.contributing)}
 
-## Tests
-${data.test}
+${getSection('Tests', data.test)}
 
 ## Questions
 For additional questions, feel free to [send me an email](mailto:${data.email}). You can also find more information on my [GitHub profile](https://github.com/${data.userName}).
