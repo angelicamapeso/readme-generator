@@ -4,6 +4,9 @@ function generateMarkdown(data) {
   return formatNewlineText(markdown);
 }
 
+//function to fill template
+//kept separate so that newline characters can be
+//inserted to the final string
 function fillMarkdownTemplate(data) {
   return `# ${data.title}
 ${getBadge(data.license)}
@@ -26,10 +29,12 @@ ${getSection('Questions', `For additional questions, feel free to [send me an em
 `;
 }
 
+//function to get license badge
 function getBadge(license) {
   return `[![${license}](https://img.shields.io/badge/License-${license}-brightGreen)](${getLicenseLink(license)})`
 }
 
+//function to get table of contents
 function getTableOfContents(contributing, test) {
  return `## Table of Contents
 - [Installation](#installation)
@@ -40,12 +45,13 @@ function getTableOfContents(contributing, test) {
 - [Questions](#questions)`;
 }
 
+//generic function for different sections of document
 function getSection(title, body) {
  return `## ${title}
 ${body}`;
 }
 
-//generate license link to a file LICENSE with year and owner information
+//function to get license link
 function getLicenseLink(license) {
   switch (license) {
     case 'Apache License 2.0':
@@ -59,6 +65,8 @@ function getLicenseLink(license) {
   }
 }
 
+//function to add newline characters to string
+//inputted inline characters with inquirer are escaped
 function formatNewlineText(text) {
   return text.split('\\n').join('\n');
 }
