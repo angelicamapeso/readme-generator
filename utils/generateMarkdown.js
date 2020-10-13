@@ -52,6 +52,10 @@ function getTableOfContents(contributing, test) {
   return tableOfContents;
 }
 
+function getSection(title, body) {
+ return `## ${title}
+${body}`;
+}
 
 //generate license link to a file LICENSE with year and owner information
 function getLicenseLink(license) {
