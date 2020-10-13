@@ -14,8 +14,7 @@ ${getTableOfContents(data.contributing, data.test)}
 
 ${getSection('Installation', data.installation)}
 
-## Usage
-${data.usage}
+${getSection('Usage', data.usage)}
 
 ## License
 This project is licensed under ${data.license}. For more information, see {link to license}.
