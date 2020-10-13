@@ -99,7 +99,7 @@ function writeToFile(fileName, data) {
 async function init() {
   const answers = await inquirer.prompt(questions);
   const markdown = generateMarkdown(answers);
-  writeToFile('genSampleReadme.md', markdown);
+  writeToFile('./exported/exported_README.md', markdown);
 }
 
 // function call to initialize program
