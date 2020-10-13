@@ -69,6 +69,7 @@ const questions = [
 ];
 
 //validation function
+//when used, ensures that input does not include newline characters
 function noNewlineChar(input) {
   return new Promise((resolve, reject) => {
     if (input.includes('\\n')) {
@@ -79,6 +80,7 @@ function noNewlineChar(input) {
   });
 }
 
+//function to trim inputs
 function trimAnswer(input) {
   return new Promise((resolve, reject) => {
     resolve(input.trim());
