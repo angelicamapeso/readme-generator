@@ -1,7 +1,5 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  // const title = data.title.split('\\n').join('\n');
-  // return title;
   const markdown = fillMarkdownTemplate(data);
   return formatNewlineText(markdown);
 }
