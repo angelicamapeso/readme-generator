@@ -31,7 +31,7 @@ ${getSection('Questions', `For additional questions, feel free to [send me an em
 
 //function to get license badge
 function getBadge(license) {
-  return `[![${license}](https://img.shields.io/badge/License-${license}-brightGreen)](${getLicenseLink(license)})`
+  return `[![${license}](https://img.shields.io/badge/License-${formatURLText(license)}-brightGreen)](${getLicenseLink(license)})`
 }
 
 //function to get table of contents
