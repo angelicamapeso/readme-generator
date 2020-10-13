@@ -32,14 +32,13 @@ function getBadge(license) {
 }
 
 function getTableOfContents(contributing, test) {
- let tableOfContents = `## Table of Contents
+ return `## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)\n`;
-  tableOfContents += contributing ? '- [Contributing](#contributing)\n' : '';
-  tableOfContents += test ? '- [Tests](#tests)\n' : '';
-  tableOfContents += '- [Questions](#questions)';
-  return tableOfContents;
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)`;
 }
 
 function getSection(title, body) {
