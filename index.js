@@ -9,21 +9,25 @@ const questions = [
     name: 'title',
     message: 'What is the title of this project?',
     validate: noNewlineChar,
+    filter: trimAnswer,
   },
   {
     type: 'input',
     name: 'description',
     message: 'Describe this project:',
+    filter: trimAnswer,
   },
   {
     type: 'input',
     name: 'installation',
     message: 'How do you install this project?',
+    filter: trimAnswer,
   },
   {
     type: 'input',
     name: 'usage',
     message: 'How do you use this project?',
+    filter: trimAnswer,
   },
   {
     type: 'list',
@@ -40,23 +44,27 @@ const questions = [
     type: 'input',
     name: 'contributing',
     message: 'How may others contribute to this project?',
+    filter: trimAnswer,
   },
   {
     type: 'input',
     name: 'test',
     message: 'What are some tests for this project?',
+    filter: trimAnswer,
   },
   {
     type: 'input',
     name: 'userName',
     message: 'What is your GitHub username?',
     validate: noNewlineChar,
+    filter: trimAnswer,
   },
   {
     type: 'input',
     name: 'email',
     message: 'What is your email?',
     validate: noNewlineChar,
+    filter: trimAnswer,
   },
 ];
 
