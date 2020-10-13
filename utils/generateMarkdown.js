@@ -16,8 +16,7 @@ ${getSection('Installation', data.installation)}
 
 ${getSection('Usage', data.usage)}
 
-## License
-This project is licensed under ${data.license}. For more information, see {link to license}.
+${getSection('License', `This project is licensed under ${data.license}. For more information, see ${getLicenseLink(data.license)}.`)}
 
 ## Contributing
 ${data.contributing}
