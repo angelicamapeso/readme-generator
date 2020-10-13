@@ -1,7 +1,7 @@
 # Sample Project Title
-[![ISC License](https://img.shields.io/badge/License-ISC License-brightGreen)](https://opensource.org/licenses/ISC)
+[![Apache License 2.0](https://img.shields.io/badge/License-Apache%20License%202.0-brightGreen)](https://www.apache.org/licenses/LICENSE-2.0)
 
-A project that does ... things!
+A projec that does ... things!
 
 We do so many things, it's hard to keep track!
 
@@ -20,7 +20,7 @@ Run `npm install` before using.
 Run `node index` and watch the magic unfold!
 
 ## License
-This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Contributing
 Please review the Contributor Covenant before contributing.
