@@ -35,3 +35,5 @@ If you're curious as to how the generated README file will turn out, see [`sampl
 ## Built with
 - [Node.js](https://nodejs.org/en/)
 - [Inquirer](https://www.npmjs.com/package/inquirer)
+
+This homework assignment is part of the [Carleton University Coding Bootcamp](https://bootcamp.carleton.ca/).
