@@ -71,6 +71,12 @@ function noNewlineChar(input) {
   });
 }
 
+function trimAnswer(input) {
+  return new Promise((resolve, reject) => {
+    resolve(input.trim());
+  });
+}
+
 // function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName,data,err => {
