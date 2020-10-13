@@ -80,14 +80,10 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
-  inquirer
-  .prompt(questions)
-  .then(answers => {
-    // console.log(answers);
-    const markDown = generateMarkdown(answers);
-    writeToFile('genSampleReadme.md', markDown);
-  });
+async function init() {
+  const answers = await inquirer.prompt(questions);
+  const markdown = generateMarkdown(answers);
+  writeToFile('genSampleReadme.md', markdown);
 }
 
 // function call to initialize program
