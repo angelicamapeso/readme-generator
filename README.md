@@ -15,6 +15,9 @@ According to the user story, this application is meant for developers seeking to
 This application uses [Inquirer](https://www.npmjs.com/package/inquirer). Be sure to run `npm install` before using it.
 
 ## Usage
+
+:link: [View demo](https://drive.google.com/file/d/1PKOamPMei5TxA-ooFM-cDUfYLS6YK9IR/view?usp=sharing)
+
 To run the application, run `node index`.
 
 Then, answer the prompts. Newline characters are supported, but certain prompts may not permit you to use them (ex. writing a newline character in the name of the project).
