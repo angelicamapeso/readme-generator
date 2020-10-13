@@ -16,7 +16,7 @@ This application uses [Inquirer](https://www.npmjs.com/package/inquirer). Be sur
 
 ## Usage
 
-:link: [View demo](https://drive.google.com/file/d/1PKOamPMei5TxA-ooFM-cDUfYLS6YK9IR/view?usp=sharing)
+:link: [View demo](https://drive.google.com/file/d/1VmOeeLeDQnkCXOmObIWv21uxn8hm3NeG/view?usp=sharing)
 
 To run the application, run `node index`.
 
