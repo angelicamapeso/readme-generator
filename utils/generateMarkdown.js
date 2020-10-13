@@ -5,7 +5,7 @@ function generateMarkdown(data) {
 }
 
 function fillMarkdownTemplate(data) {
-  let markdown =  `# ${data.title}
+  return `# ${data.title}
 ${getBadge(data.license)}
 
 ${data.description}
@@ -24,7 +24,6 @@ ${getSection('Tests', data.test)}
 
 ${getSection('Questions', `For additional questions, feel free to [send me an email](mailto:${data.email}). You can also find more information on my [GitHub profile](https://github.com/${data.userName})`)}.
 `;
-  return markdown;
 }
 
 function getBadge(license) {
