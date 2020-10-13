@@ -6,7 +6,7 @@ function generateMarkdown(data) {
 
 function fillMarkdownTemplate(data) {
   return `# ${data.title}
-[![${data.license}](https://img.shields.io/badge/license-${data.license}-brightGreen)](${getLicenseLink(data.license)})
+${getBadge(data.license)}
 
 ${data.description}
 
