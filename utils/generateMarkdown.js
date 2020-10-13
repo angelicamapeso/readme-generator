@@ -37,6 +37,10 @@ ${data.test}
 For additional questions, feel free to [send me an email](mailto:${data.email}). You can also find more information on my [GitHub profile](https://github.com/${data.userName}).
 `;
 }
+function getBadge(license) {
+  return `[![${license}](https://img.shields.io/badge/License-${license}-brightGreen)](${getLicenseLink(license)})`
+}
+
 
 //generate license link to a file LICENSE with year and owner information
 function getLicenseLink(license) {
