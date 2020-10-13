@@ -56,7 +56,7 @@ function getLicenseLink(license) {
   switch (license) {
     case 'Apache License 2.0':
       return 'https://www.apache.org/licenses/LICENSE-2.0';
-    case 'GNU GPLv3':
+    case 'GNU GPLv3 License':
       return 'https://www.gnu.org/licenses/gpl-3.0.en.html';
     case 'MIT License':
       return 'https://opensource.org/licenses/MIT';
