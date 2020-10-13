@@ -18,8 +18,7 @@ ${getSection('Usage', data.usage)}
 
 ${getSection('License', `This project is licensed under ${data.license}. For more information, see ${getLicenseLink(data.license)}.`)}
 
-## Contributing
-${data.contributing}
+${getSection('Contributing', data.contributing)}
 
 ## Tests
 ${data.test}
