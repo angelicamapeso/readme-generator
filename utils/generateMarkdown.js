@@ -12,8 +12,7 @@ ${data.description}
 
 ${getTableOfContents(data.contributing, data.test)}
 
-## Installation
-${data.installation}
+${getSection('Installation', data.installation)}
 
 ## Usage
 ${data.usage}
