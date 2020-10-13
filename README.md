@@ -1,5 +1,7 @@
 # Bootcamp - Homework 7: README Generator
 
+![Sample README file](./assets/sampleReadme.png)
+
 A command line application that generates README files.
 
 When run, a series of prompts are shown. The answers to these prompts are placed in a generated README file.
